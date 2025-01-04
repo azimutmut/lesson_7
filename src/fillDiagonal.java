@@ -1,9 +1,9 @@
 public class fillDiagonal {
     public static void main(String[] args) {
-        int[][] arr = new int[5][5];
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
-                  if(i+j==4){
+        int[][] arr = new int[7][7];
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                  if(i+j==6){
                     System.out.print("1  ");
                 }else if (i==j){
                     System.out.print("1  ");
