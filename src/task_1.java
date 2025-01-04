@@ -36,14 +36,27 @@ public class task_1 {
                 System.out.print(0);
             }
         }
-//        public static void arrayChange(int[] array) {
-//            for (int i = 0; i < array.length; i++) {
-//                array[i] = array[i] == 0 ? 1 : 0; // Если элемент 0, становится 1, иначе — 0
-//            }
-//        }
 
     }
+    public static void hundredArr() {
+        int[] arr = new int[101];
+        for(int i = 0; i <= 100; i++) {
+            arr[i] = i;
+            System.out.print(arr[i]+" ");
+        }
+        System.out.println(" ");
+    }
+    public static void multiplyToTwo(){
+        int[] nums = { 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1  };
+        for (int o : nums) {
+            if(o<6){
+                System.out.print(o*2 + " ");
+            }else{
+                System.out.print(o + " ");
+            }
+        }
 
+    }
 
     public static void main(String[] args) {
         System.out.println(isSumGreaterThan50(10, 5, 4)); // true
@@ -58,6 +71,8 @@ public class task_1 {
         arrayChange(binaryArray);
         System.out.println();
 
+        hundredArr();
 
+        multiplyToTwo();
     }
 }
