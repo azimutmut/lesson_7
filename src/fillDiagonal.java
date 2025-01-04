@@ -14,5 +14,4 @@ public class fillDiagonal {
             System.out.println();
         }
     }
-
 }
