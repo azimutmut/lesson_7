@@ -1,4 +1,4 @@
-public class taskTen {
+public class task_9 {
     public static void main(String[] args) {
         int len = 3;
         int initialValue = 6;
